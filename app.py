@@ -10,7 +10,7 @@ st.set_page_config(
 )
 
 html_path = Path(__file__).with_name("index.html")
-html_content = html_path.read_text(encoding="utf-8")
+html_content = html_path.read_text(encoding="utf-8", errors="replace")
 
 components.html(
     html_content,
