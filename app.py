@@ -4,7 +4,7 @@ import streamlit as st
 import streamlit.components.v1 as components
 
 st.set_page_config(
-    page_title="Definiciones y metodología de semiconductores",
+    page_title="Empresas españolas con actividad de semiconductores fotónicos",
     layout="wide",
     initial_sidebar_state="collapsed"
 )
